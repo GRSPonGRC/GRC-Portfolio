@@ -56,4 +56,7 @@ Frameworks and tools
 Frameworks. NIST CSF 2.0, NIST SP 800-53 and 800-53A, NIST AI RMF, SOC 2 Trust Services Criteria, ISO/IEC 27001, ISO/IEC 42001, EU AI Act
 
 Tools. Open Policy Agent (OPA), Rego, Conftest, Terraform, GitHub Actions, Python, AWS, Google Sheets
-# GRC-Portfolio
+
+Only list a tool here once a finished project actually uses it.
+How I work
+All projects are my own work. Group projects credit my teammates and describe my part. Where I used a tutorial or an AI tool to learn or get started, the project README says so.
