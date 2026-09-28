@@ -33,7 +33,6 @@ Scoping a fictional company, finding control gaps, and proposing fixes
 Planned
 
 
-Update the Status column as you go. Suggested labels are Planned, In progress, Cleaning up, and Complete.
 How this repo is organized
 GRC-Portfolio/
 
