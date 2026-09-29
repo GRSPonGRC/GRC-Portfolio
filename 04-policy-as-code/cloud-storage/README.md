@@ -56,7 +56,7 @@ Each test starts from a fully compliant bucket and changes one setting, so a fai
 
 ## What I Learned
 
-In writing this policy, it showed me how a single sentence can become several precise and testable conditions. It also reinforced that a control is only as good as the evidence backing it up. Automated tests provide that very evidence every time the policy runs, rather than once a year during an audit.
+In writing this policy showed me how a single sentence can become several precise and testable conditions. It also reinforced that a control is only as good as the evidence backing it up. Automated tests provide that very evidence every time the policy runs, rather than once a year during an audit.
 
 ## Tools and Credits
 
