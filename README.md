@@ -10,7 +10,7 @@ I'm a cybersecurity student at Boise State focused on AI governance and complian
 |---|---------|---------------|--------|
 | 01 | Risk Register | Identifying, scoring, and treating risks, including AI-related risks | Planned |
 | 02 | Acceptable Use Policy | Writing a real policy as part of a group project | Cleaning up |
-| 03 | Security Awareness Program Assessment | Assessing a training program against NIST SP 800-53A AT controls, with notes on which controls could be automated | Cleaning up |
+| 03 | Security Awareness Assessment | Assessing a training program against NIST SP 800-53A AT controls, with notes on which controls could be automated | Cleaning up |
 | 04 | Policy as Code | Cloud controls written as OPA/Rego rules, tested, and run automatically with Conftest and GitHub Actions | In Progress |
 | 05 | AI Governance Assessment | Reviewing an AI hiring tool against the EU AI Act, NIST AI RMF, ISO/IEC 42001, and the OWASP Top 10 for LLM Applications | Planned |
 | 06 | SOC 2 Readiness Assessment | Scoping a fictional company, finding control gaps, and proposing fixes | Planned |
