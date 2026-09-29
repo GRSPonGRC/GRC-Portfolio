@@ -1,0 +1,7 @@
+{
+  "buckets": [
+    {"name": "citizen-records", "public": false, "environment": "prod", "encrypted": true, "classification": "confidential"},
+    {"name": "finance-reports", "public": true, "environment": "prod", "encrypted": false},
+    {"name": "dev-scratch", "public": true, "environment": "dev", "encrypted": true, "classification": "internal"}
+  ]
+}
