@@ -2,7 +2,7 @@
 
 This repo holds my hands-on governance, risk, and compliance (GRC) work. Each project is built around a realistic scenario and shows the decisions I made and why, not just which controls apply. Newer projects also show how a written control can be turned into an automated check.
 
-I'm a cybersecurity student at Boise State focused on AI governance and compliance automation. More about me is on my [GitHub profile](https://github.com/GRSPstyles).
+I'm a cybersecurity student at Boise State focused on AI governance and compliance automation. More about me is on my [GitHub profile](https://github.com/GRSPonGRC).
 
 ## Projects
 
