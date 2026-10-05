@@ -13,7 +13,8 @@ I'm a cybersecurity student at Boise State focused on AI governance and complian
 | 03 | Security Awareness Assessment | Assessing a training program against NIST SP 800-53A AT controls, with notes on which controls could be automated | Cleaning up |
 | 04 | Policy as Code | Cloud controls written as OPA/Rego rules, tested, and run automatically with Conftest and GitHub Actions | In Progress |
 | 05 | AI Governance Assessment | Reviewing an AI hiring tool against the EU AI Act, NIST AI RMF, ISO/IEC 42001, and the OWASP Top 10 for LLM Applications | Planned |
-| 06 | SOC 2 Readiness Assessment | Scoping a fictional company, finding control gaps, and proposing fixes | Planned |
+| 06 | Casino GRC Assessment | Two connected assessments of fictional companies. A casino resort assessed against PCI DSS, and the casino technology vendor it relies on assessed against SOC 2, linked through vendor risk review | Planned |
+| 07 | Automated Evidence Collection | A Python script that checks real AWS settings and access reviews, then produces evidence reports mapped to controls | Planned |
 
 ## How this repo is organized
 
@@ -25,16 +26,19 @@ GRC-Portfolio/
 ├── 03-security-awareness-assessment/
 ├── 04-policy-as-code/
 ├── 05-ai-governance-assessment/
-└── 06-soc2-readiness/
+├── 06-casino-grc-assessment/
+│   ├── resort-pci-dss/
+│   └── vendor-soc2/
+└── 07-evidence-collection/
 ```
 
 Each folder has its own README explaining the scenario, what I did, the decisions I made, and what I learned.
 
 ## Frameworks and tools
 
-**Frameworks.** NIST CSF 2.0, NIST SP 800-53 and 800-53A, NIST AI RMF, SOC 2 Trust Services Criteria, ISO/IEC 27001, ISO/IEC 42001, EU AI Act
+**Frameworks.** NIST CSF 2.0, NIST SP 800-30, NIST SP 800-53 and 800-53A, NIST AI RMF, SOC 2 Trust Services Criteria, PCI DSS v4.0, ISO/IEC 27001, ISO/IEC 42001, EU AI Act
 
-**Tools.** Python, AWS, Google Sheets
+**Tools.** Python, AWS, OPA, Rego, Google Sheets
 
 ## How I work
 
