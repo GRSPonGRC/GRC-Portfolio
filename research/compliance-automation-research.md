@@ -13,7 +13,7 @@ drata.com/learn/compare/secureframe-vs-vanta-vs-drata
 
 ## Why I researched this
 
-After building my own policy-as-code rules with OPA and Rego, I wanted to see how commercial platforms handle the same problem at a much larger scale. Vanta and Drata both promise to automate evidence collection and keep controls monitored around the clock, so I researched how they do it, what they cover, and where a person is still needed. This helps me understand both the value of automation and its limits as I build my GRC engineering skills.
+After building my own policy-as-code rules with OPA and Rego, I wanted to see how these two commercial platforms handle the same problem on a larger scale. Vanta and Drata both promise to automate evidence collection and keep controls monitored 24/7. In my research I examined how they do it, what they cover, and where an actual person is still needed. This helps comprehend both the value of automation and its limits.
 
 ## What these platforms do, in plain words
 
@@ -37,7 +37,7 @@ Platforms like Vanta and Drata automate most of that work. They connect directly
 
 Example control. Every employee must use multi-factor authentication (MFA).
 
-The old manual way. Before an audit, someone logs into the company's identity system, takes screenshots of each user's MFA settings, and saves them in a folder for the auditor. This only shows the situation on that one day. If an employee turns MFA off a week later, nobody notices until the next audit.
+The old way. Before an audit, someone logs into the company's identity system, takes screenshots of each user's MFA settings, and saves them in a folder for the auditor. This only shows the situation on that one day. If an employee turns MFA off a week later, nobody notices until the next audit.
 
 How Vanta handles it. The company connects its identity provider to Vanta through an integration that has permission to read user settings. Vanta then runs an automated test that checks every user's MFA status, and it repeats the test about every hour. If a user doesn't have MFA turned on, the test fails, Vanta flags it on the dashboard, and the fix can be assigned to an owner through email or a task tracker like Jira. The test results are saved as evidence the whole time, and the auditor can review them directly instead of asking for screenshots.
 
