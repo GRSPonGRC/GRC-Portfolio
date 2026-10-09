@@ -39,6 +39,9 @@ Each folder has its own README explaining the scenario, what I did, the decision
 **Frameworks.** NIST CSF 2.0, NIST SP 800-30, NIST SP 800-53 and 800-53A, NIST AI RMF, SOC 2 Trust Services Criteria, PCI DSS v4.0, ISO/IEC 27001, ISO/IEC 42001, EU AI Act
 
 **Tools.** Python, AWS, OPA, Rego, Google Sheets
+## Research
+
+- [Compliance Automation Platforms. Vanta vs Drata](research/compliance-automation-research.md). How these tools collect evidence and monitor controls, what still needs a person, and how it connects to my own projects.
 
 ## How I work
 
